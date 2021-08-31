@@ -3,6 +3,12 @@ const myParagraph = document.getElementById("mPara")
 const rndIcon = document.getElementById("myIconImage")
 const mySweetPicArr = ["bee.png", "cubes.png", "dog.png", "fox.png", "home.png", "number.png", "shocked.png", "sign.png", "thinking.png", "thunderbolt.png", "cat.png", "hamster.png", "dice.png", "four-leaf.png", "infinity.png", "coin.png", "money.png", "chess-piece.png", "chess-pieces.png", "chess-board.png"]
 
+// Checking localStorage if the item is empty.
+if (localStorage.getItem("randomImage") === null){
+    localStorage.setItem("randomImage", "infinity.png")
+
+}
+
 // Storing number LONG
 const valueFromLocalStorage = JSON.parse(localStorage.getItem("randomNumber"))
 myParagraph.innerText = valueFromLocalStorage
