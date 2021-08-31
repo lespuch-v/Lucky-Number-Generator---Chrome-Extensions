@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+}
+.main-container {
+  min-width: 500px;
+  min-height: 500px;
+  /* background-color: aqua; */
+  /* margin: 0 auto 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-container {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(207, 207, 207);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 8px;
+  background: rgb(252, 105, 96);
+  background: linear-gradient(
+    0deg,
+    rgba(252, 105, 96, 1) 0%,
+    rgba(246, 210, 94, 1) 100%
+  );
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+}
+.image-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px black;
+}
+.randomNumberGene {
+  font-size: 30px;
+  margin: 10px;
+}
+
+/* Button 2 */
+button {
+  background: #2ecc71;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 30px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 100ms;
+}
+
+button:hover {
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 250ms;
+  background: #91a198;
+  transform: scale(1.1);
+  color: white;
+}
+
+button:active {
+  background: #27ae60;
+  top: 2px;
+  transform: scale(1);
+}
+
+button:before {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  line-height: 3;
+  font-size: 140%;
+  width: 60px;
+}
