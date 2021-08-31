@@ -5,4 +5,4 @@ Project is Created in JavaScript / HTML and CSS.
 Useful resources:
 - https://fonts.google.com/
 - https://www.flaticon.com/
-Thanks!
+<br>Thanks!
